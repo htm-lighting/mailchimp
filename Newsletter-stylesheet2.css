@@ -352,7 +352,7 @@ button:focus {
 
 	.featuredProductImg {
 		width: 100%;
-		height: 130px;
+		height: auto;
 		border: solid 1px #e6e6e6;
 	}
 
@@ -375,5 +375,10 @@ button:focus {
 
 	.wrapper {
 		width: 40%;
+	}
+
+	.featuredProductImg {
+		width: 100%;
+		height: auto;
 	}
 }
