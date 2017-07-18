@@ -27,19 +27,6 @@ button:focus {
     border: solid #f7941d 5px;
 }
 
-.logoImg {
-	width: 50%;
-	float: left;
-}
-
-.contactSpan {
-	position: relative;
- 	top: 50%;
-    -webkit-transform: translateY(40%);
-    -ms-transform: translateY(40%);
-  	transform: translateY(40%);
-}
-
 .navBlock {
 	margin-bottom: 15px;
 }
