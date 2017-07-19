@@ -21,8 +21,6 @@ button:focus {
 	outline: 0;
 }
 
-@media (max-width: 473px) {
-
 	.wrapper {
 		max-width: 640px;
 		padding: 0;
@@ -33,6 +31,7 @@ button:focus {
 	    border: solid #f7941d 5px;
 	}
 
+@media (max-width:473px){
 	.logo-contact-primary {
 		display: none;
 	}
@@ -40,6 +39,16 @@ button:focus {
 	.logo-contact-secondary {
 		display: block;
 	}
+
+	.productFeatures-primary {
+		display: none;
+	}
+
+	.productFeatures-secondary {
+		display: block;
+	}
+
+}
 
 	.logoholder {
 		padding-top: 15px;
@@ -110,15 +119,27 @@ button:focus {
 		text-align: center;
 	}
 
+	.oneProductBlock {
+		width: 33%;
+		float: left;
+		padding: 15px;
+	}
+
 	.featuredProductImg {
 		width: 100%;
 		border: solid 1px #e6e6e6;
 		margin: auto;
 	}
 
+	.featuredProductTitle {
+		margin: auto;
+		text-align: center;
+	}
+
 	.featuredProductButton {
 		background-color: #f7941d;
 		margin: 5px auto 15px auto;
+		max-width: 60px;
 		padding: 10px;
 		color: white;
 		display: block;
@@ -288,14 +309,20 @@ button:focus {
 	  width: 100%;
 	}
 
-}
-
 @media (min-width: 474px) { 
 	.logo-contact-primary {
 		display: block;
 	}
 
 	.logo-contact-secondary {
+		display: none;
+	}
+
+	.productFeatures-primary {
+		display: block;
+	}
+
+	.productFeatures-secondary {
 		display: none;
 	}
 
